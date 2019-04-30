@@ -156,4 +156,10 @@ public class Bot : Agent
         balloonText.text = "";
         canvas.gameObject.SetActive(false);
     }
+
+    // print whatever you want on the console from a UnityProlog plan
+    public void PrintLog(string str)
+    {
+        Debug.Log(str);
+    }
 }
